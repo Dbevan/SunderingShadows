@@ -38,10 +38,10 @@ void create() {
 
 string long_desc(){
   return ::base_desc() + " To the west, you can make out the ruins of a%^ORANGE%^"
-    +" small path %^RESET%^running north to south, and a number of stone huts."
+    +" small path %^RESET%^%^GREEN%^running north to south, and a number of stone huts."
     +" There also appears to be a break in the"
     +" %^GREEN%^j%^BOLD%^%^GREEN%^u%^RESET%^%^GREEN%^ng%^ORANGE%^l%^GREEN%^e"
     +" f%^BOLD%^%^GREEN%^o%^RESET%^%^GREEN%^l%^BOLD%^%^GREEN%^i%^RESET%^%^GREEN%^a"
-    +"%^BOLD%^%^GREEN%^g%^RESET%^%^GREEN%^e%^RESET%^ in the same direction, which"
-    +" continues to the southwest as well.";
+    +"%^BOLD%^%^GREEN%^g%^RESET%^%^GREEN%^e in the same direction, which"
+    +" continues to the southwest as well.%^RESET%^";
 }

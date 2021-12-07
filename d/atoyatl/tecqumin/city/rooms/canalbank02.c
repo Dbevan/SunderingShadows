@@ -46,6 +46,6 @@ string long_desc(){
   +" %^RESET%^stone huts%^GREEN%^. There also appears to be a break in the"
   +" j%^BOLD%^%^GREEN%^u%^RESET%^%^GREEN%^ng%^ORANGE%^l%^GREEN%^e"
   +" f%^BOLD%^%^GREEN%^o%^RESET%^%^GREEN%^l%^BOLD%^%^GREEN%^i"
-  +"%^RESET%^%^GREEN%^a%^ORANGE%^g%^GREEN%^e in the same direction.";
+  +"%^RESET%^%^GREEN%^a%^ORANGE%^g%^GREEN%^e in the same direction.%^RESET%^";
 
 }

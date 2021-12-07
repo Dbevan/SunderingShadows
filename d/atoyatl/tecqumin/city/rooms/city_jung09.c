@@ -25,7 +25,7 @@ void create() {
 
 string long_desc(){
   return ::base_desc() + "To the north, the"
-    +" %^GREEN%^j%^BOLD%^%^GREEN%^u%^RESET%^%^GREEN%^ngle %^RESET%^opens slightly,"
-    +" and you can make out what looks like the remains of an %^ORANGE%^ancient"
-    +" road%^RESET%^ running east to west.";
+    +" %^GREEN%^j%^BOLD%^%^GREEN%^u%^RESET%^%^GREEN%^ngle opens slightly,"
+    +" and you can make out what looks like the remains of an %^RESET%^%^ORANGE%^ancient"
+    +" road%^RESET%^%^GREEN%^ running east to west.%^RESET%^";
 }

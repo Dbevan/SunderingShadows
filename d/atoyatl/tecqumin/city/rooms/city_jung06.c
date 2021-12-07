@@ -42,6 +42,6 @@ string long_desc(){
    +" stone huts. There also appears to be a break in the"
    +" %^GREEN%^j%^BOLD%^%^GREEN%^u%^RESET%^%^GREEN%^ng%^ORANGE%^l%^GREEN%^e"
    +" f%^BOLD%^%^GREEN%^o%^RESET%^%^GREEN%^l%^BOLD%^%^GREEN%^i%^RESET%^%^GREEN%^"
-   +"a%^BOLD%^%^GREEN%^g%^RESET%^%^GREEN%^e %^RESET%^in the same direction.";
+   +"a%^BOLD%^%^GREEN%^g%^RESET%^%^GREEN%^e in the same direction.%^RESET%^";
 
 }
