@@ -1,5 +1,5 @@
 //Third Level Template  - LoKi - 12-02-2008
-
+// Changing pick_critters to pull Vrock rather than Balor - Pandora 07/23
 
 #include <std.h>
 #include "../ogres.h"
@@ -69,7 +69,7 @@ void pick_critters(){
 ({MOBS"ogre1",MOBS"ogre2",MOBS"ogre4"}),({random(3),random(3),1}) );
         break;
         case 4:   set_monsters(
-({MOBS"balor_demon"}),({1}) );
+({MOBS"vrock_demon"}),({1}) );
         break;
         case 5:   set_monsters(
 ({MOBS"maurezhi_demon"}),({random(3) }) );

@@ -1,3 +1,6 @@
+// Demoted Ahstuz to rebalance demonic 'generals' to be elite bosses. 
+// Also scrubbed 'hell' and replaced with 'abyss' to reflect these are separate places. - Pandora, 07/23
+
 #include <std.h>
 #include "../ogres.h"
 
@@ -18,9 +21,9 @@ void create() {
     object ob;
     ::create();
     set_name("ahstuz");
-    set_id( ({"demon", "greater demon", "daemon", "ahstuz", "Ahstuz", "general"}) );
-    set_short("%^RESET%^%^BOLD%^Ahstuz, General of the Ravaging Hordes%^RESET%^");
-    set_long("%^RESET%^%^WHITE%^This demon stands well over twenty feet tall. He is humanoid, "+
+    set_id( ({"demon", "daemon", "ahstuz", "Ahstuz", "raider"}) );
+    set_short("%^RESET%^%^BOLD%^Ahstuz, Raider of the Ravaging Hordes%^RESET%^");
+    set_long("%^RESET%^%^WHITE%^This demon stands over twelve feet tall. He is humanoid, "+
 "yet besides the placement of normal limbs, the resemblance to any human is a stretch. His torso"+
 " is small and g%^RESET%^%^BOLD%^%^BLACK%^a%^RESET%^%^WHITE%^unt and you see evidence of every "+
 "single rib. His arms and legs however are freakishly long. His hands drag on the floor and his"+
@@ -132,16 +135,16 @@ void die(object ob) {
        "dead, his power gone.\nYou gasp for breath as your heart "+
        "suddenly starts beating again.");
     /*message("broadcast", "%^BOLD%^%^RED%^   A great pillar of flame can "+
-       "be seen in the north sky as the portal to the pits of hell is "+
+       "be seen in the north sky as the portal to the pits of the Abyss is "+
        "closed.", users());*/
     att = all_living(ETO);
     for(i=0;i<sizeof(att);i++){
       if(!interactive(att[i])) continue;
       att[i]->set_mini_quest("Ogre Hordes", 1000000,"You defeated Ahstuz, "+
-         "and sealed the Gate to Hell, freeing the souls of the Ogres.");
-      tell_object(att[i], "%^BOLD%^%^BLUE%^   You have sealed the gate to "+
-         "Hell, and have freed the souls of the ogres, so that some day "+
-         "they may free their bodies from the grasp of the Abyss.\n");
+         "and sealed a Gate to the Abyss, freeing the souls of the Ogres.");
+      tell_object(att[i], "%^BOLD%^%^BLUE%^   You have sealed a gate to "+
+         "the Abyss, and have freed the souls of the ogres, so that some day "+
+         "they may free their bodies from fiendish grasp.\n");
     }
     ::die(ob);
 }
